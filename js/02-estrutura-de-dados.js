@@ -33,3 +33,13 @@ console.log(carro.modelo);
 
 console.log(
     `Carros da ${carro.modelo} tem a cor ${carro.cor} e opcionais ${carro.opcionais[2]}.`);
+
+const comida = {
+    tipo: ["Salgada", "Doce", "Agridoce"],
+    nacionalidade: ["Brasileira", "Japonesa", "Coreana", "Arabe", "Tailandesa"],
+    nome: ["Feijoada", "Sushi", "Kimchi", "Shawarma", "Pad Tha"], 
+}
+
+console.log(
+    `Fui a um restaurante ${comida.nacionalidade[2]} e comi ${comida.nome[2]} que era ${comida.tipo[0]}.`
+);
