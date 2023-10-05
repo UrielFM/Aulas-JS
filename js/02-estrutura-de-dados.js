@@ -11,3 +11,6 @@ Lista de dados não indexado e formados por propriedads e valores.
 // Arrays
 
 let cursos = ["Node.js", "React", "SQL", "UX/UI Design"];
+
+console.log(cursos[2]); //SQL
+console.log(cursos); // saída direta/estrutura
