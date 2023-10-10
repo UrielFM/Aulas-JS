@@ -12,11 +12,22 @@ let mensagem; // indefinida/underfined
 
 // Verificar a idade e determinar se é menos ou maior de idade
 
-if( idade >= 18 ) {
-    mensagem = "maior";
-} else {
-    mensagem = "menor";
-}
+// if( idade >= 18 ) {
+//     mensagem = "maior";
+// } else {
+//     mensagem = "menor";
+// }
 
 // Apresentando os resultados APÓS a condicional
-console.log( `${usuario} é ${mensagem} de idade!`);
+// console.log( `${usuario} é ${mensagem} de idade!`);
+// alert( `${usuario} é ${mensagem} de idade!`);
+
+if( idade >= 60){
+    mensagem = "Idoso(a)";
+} else if (idade >= 18){
+    mensagem = "Adulto(a)";
+} else {
+    mensagem = "Menor";
+}
+console.log (`${usuario} você tem ${idade} anos e é considerado ${mensagem},`);
+alert (`${usuario} você tem ${idade} anos e é considerado ${mensagem},`);
