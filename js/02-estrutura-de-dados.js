@@ -43,3 +43,23 @@ const comida = {
 console.log(
     `Fui a um restaurante ${comida.nacionalidade[2]} e comi ${comida.nome[2]} que era ${comida.tipo[0]}.`
 );
+
+
+
+console.log("-------------------");
+
+
+// Objeto com array e com outro objeto
+let pessoa = {
+    nome: "Shiryu",
+    idade: 20,
+    telefones: ["11-2135-0300", "11-91234-5678"],
+    Medidas: {
+        altura: 1.75,
+        peso: 65,
+    }
+}
+
+console.log(`Nome: ${pessoa.nome}`);
+console.log(`Celular: ${pessoa.telefones[1]}`);
+console.log(`Peso: ${pessoa.Medidas.peso} kg`);

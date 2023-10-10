@@ -22,7 +22,7 @@ console.log (mediaMinima);
 console.log (ano);
 
 
-// Sa~ida de dados personalizada
+// Saída de dados personalizada
 
 /* Estou fazendo o curso de HTML5 e CSS3 neste ano de 2023 */
 
