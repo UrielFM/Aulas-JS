@@ -8,12 +8,15 @@ Comandos mais comuns: if(se), else(senão), else if (senão se)
 
 let usuario = "Juean";
 let idade = 20;
+let mensagem; // indefinida/underfined
 
 // Verificar a idade e determinar se é menos ou maior de idade
 
 if( idade >= 18 ) {
-    console.log(`${usuario} é maior de idade!`);
+    mensagem = "maior";
+} else {
+    mensagem = "menor";
 }
-else {
-    console.log( `${usuario} não é maior de idade`);
-}
+
+// Apresentando os resultados APÓS a condicional
+console.log( `${usuario} é ${mensagem} de idade!`);
