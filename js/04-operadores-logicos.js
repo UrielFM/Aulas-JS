@@ -64,3 +64,4 @@ if ( !blackFriday) {
 } else {
     console.log("Preços com descontos...");
 }
+
