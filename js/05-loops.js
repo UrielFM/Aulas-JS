@@ -30,6 +30,22 @@ de repetição são chamadas de i, j ou k. */
 // } while (i <= 3);
 
 // EXEMPLO FOR (PARA)
-for(let i = 1; i <=10; i++){
-    console.log(`i vale ${i}`);
-}
+// for(let i = 1; i <=10; i++){
+//     console.log(`i vale ${i}`);
+// }
+
+/* Lopp com array */
+
+let clientes = [
+                "Ozzy", 
+                "Dio", 
+                "Gillan", 
+                "Martin", 
+                "Hughes",
+                "Fulano",
+                "Beltrano",
+];
+
+let quantidade = clientes.length
+for(let i = 0; i < quantidade; i++)
+    console.log(`Clientes: ${clientes[i]}`);
