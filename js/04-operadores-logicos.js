@@ -6,8 +6,8 @@ const limiteDeFaltas = 10;
 
 // Resultados do aluno fictício
 let aluno = "Jean";
-let mediaFinal = 2.5;
-let faltas = 10;
+let mediaFinal = 7.5;
+let faltas = 15;
 let resutado;
 
 /* Operador lógico && (AND - E) */
@@ -17,15 +17,25 @@ let resutado;
 //     resultado = "Reprovado"
 // }
 
-if (mediaFinal >= mediaMinima && faltas <= limiteDeFaltas) {
-    resutado = "Aprovado;"
-} else if (faltas > limiteDeFaltas) {
-    resutado = "Reprovado por Faltas";
-} else if (mediaFinal < mediaMinima) {
-    resutado = "Reprovado por nota"
+// if (mediaFinal >= mediaMinima && faltas <= limiteDeFaltas) {
+//     resutado = "Aprovado;"
+// } else if (faltas > limiteDeFaltas) {
+//     resutado = "Reprovado por Faltas";
+// } else if (mediaFinal < mediaMinima) {
+//     resutado = "Reprovado por nota"
+// } else {
+//     resutado = "Reprovado";
+// }
+
+
+if (faltas > limiteDeFaltas) {
+    resutado = "Reprovado por faltas";
+} else if (mediaFinal >= mediaMinima){
+    resutado = "Aprovado";
 } else {
     resutado = "Reprovado";
 }
+
 
 console.log(`Ó aluno ${aluno} está ${resutado}.`);
 console.log(`Média do aluno: ${mediaFinal}.`);
