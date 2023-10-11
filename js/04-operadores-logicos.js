@@ -40,3 +40,15 @@ if (faltas > limiteDeFaltas) {
 console.log(`Ó aluno ${aluno} está ${resutado}.`);
 console.log(`Média do aluno: ${mediaFinal}.`);
 console.log(`Faltas do aluno ${faltas}.`);
+
+console.log("-----------------------------------------------------");
+
+/* Operador lógico || (OR - OU) */
+
+let diaDaSemana = "sábado";
+
+if(diaDaSemana == "sábado" || diaDaSemana == "domingo") {
+    console.log( "Final de semana");
+} else {
+    console.log("Dia da semana");
+}
