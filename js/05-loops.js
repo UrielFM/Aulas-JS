@@ -46,6 +46,9 @@ let clientes = [
                 "Beltrano",
 ];
 
-let quantidade = clientes.length
+// Cache/"Memória" da quantidade do elementos do array
+let quantidade = clientes.length;
+
 for(let i = 0; i < quantidade; i++)
     console.log(`Clientes: ${clientes[i]}`);
+
