@@ -17,11 +17,19 @@ Obs.: Normalamente o loop é controlado através de uma variável contadora.
 //     contador++; // ++ incremento
 // }
 
+/* Obs.: normalmente variáveis de controle
+de repetição são chamadas de i, j ou k. */
+
 
 // EXEMPLO DO/WHILE (FAÇA/ENQUANTO)
 
-let i = 1;
-do {
-    console.log(`i vale: ${i}`);
-    i++;
-} while (i <= 3);
+// let i = 1;
+// do {
+//     console.log(`i vale: ${i}`);
+//     i++;
+// } while (i <= 3);
+
+// EXEMPLO FOR (PARA)
+for(let i = 1; i <=10; i++){
+    console.log(`i vale ${i}`);
+}
