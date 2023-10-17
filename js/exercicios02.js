@@ -1,25 +1,25 @@
-let alunos [ 
+let alunos = [ 
     {
-        nome:"Joãozinho",
-        Id:15,
+        nome: "Joãozinho",
+        Id: "1",
         Escola: "Gabriel",
-        ano: "2016",
-    };
+        Ano: "2016",
+    },
     {
-        Nome: "Mariazinha",
-        Id: 18,
+        nome: "Mariazinha",
+        Id: "2",
         Escola: "Almirante",
         Ano: "2018",
-    };
+    },
     {
-        Nome: "Giuseppezinho",
-        Id: 12,
+        nome: "Giuseppezinho",
+        Id: "3",
         Escola: "Senne",
         Ano: "2022",
-    };
+    }
 ];
 
-let nomes = alunos.length;
+let quantidade = alunos.length;
 
 for(let i = 0; i < quantidade; i++)
-    console.log(`Clientes: ${clientes[i]}`);
+    console.log(`Aluno: ${alunos[i].nome}`);
