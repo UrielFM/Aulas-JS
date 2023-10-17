@@ -1,30 +1,28 @@
+"use strict"
+
 let alunos = [ 
     {
         nome: "Joãozinho",
-        Id: "1",
-        Escola: "Gabriel",
-<<<<<<< HEAD
+        id: 1,
+        escola: "Gabriel",
         ano: "2016",
-=======
-        Ano: "2016",
->>>>>>> 21519c7bd0667cd5bf75b67012d48438592c68d3
     },
     {
         nome: "Mariazinha",
-        Id: "2",
-        Escola: "Almirante",
-        Ano: "2018",
+        id: 2,
+        escola: "Almirante",
+        ano: "2018",
     },
     {
         nome: "Giuseppezinho",
-        Id: "3",
-        Escola: "Senne",
-        Ano: "2022",
-    },
+        id: 3,
+        escola: "Senne",
+        ano: "2022",
+    }
 ];
 
 let quantidade = alunos.length;
 
-for(let i = 0; i < quantidade; i++)
+for(let i = 0; i < quantidade; i++){
     console.log(`Aluno: ${alunos[i].nome}`);
-
+}
