@@ -20,16 +20,11 @@ let alunos = [
         Id: "3",
         Escola: "Senne",
         Ano: "2022",
-<<<<<<< HEAD
     },
-];
-
-=======
-    }
 ];
 
 let quantidade = alunos.length;
 
 for(let i = 0; i < quantidade; i++)
     console.log(`Aluno: ${alunos[i].nome}`);
->>>>>>> 21519c7bd0667cd5bf75b67012d48438592c68d3
+
