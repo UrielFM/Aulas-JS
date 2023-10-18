@@ -31,3 +31,4 @@ console.log(descricao);
 const variosElementos = document.querySelectorAll("h3, a");
 
 console.log(variosElementos);
+console.log(variosElementos[1]);
