@@ -27,4 +27,7 @@ console.log(desenho);
 console.log(descricao);
 
 
-// 
+// querySetectorAll()
+const variosElementos = document.querySelectorAll("h3, a");
+
+console.log(variosElementos);
