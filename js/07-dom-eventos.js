@@ -44,9 +44,13 @@ titulo.classList.add("destaque"); //Classe CSS via JS
 /* Selecionando os links contidos na lista */
 const linksReferencia = document.querySelectorAll("ul li a");
 
-let quantidadeDeLinks = linksReferencia.length
+// let quantidadeDeLinks = linksReferencia.length
 
-for (let i = 0; i < quantidadeDeLinks; i++) {
+/* for (let i = 0; i < quantidadeDeLinks; i++) {
      linksReferencia[i].setAttribute("target","_blank")
-}
+} */
 console.log(linksReferencia);
+
+for(let link of linksReferencia){
+    link.setAttribute("target", "_blank")
+}
