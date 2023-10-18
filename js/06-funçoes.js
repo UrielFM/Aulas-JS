@@ -90,15 +90,19 @@ const algumNome = () => {}
 No entanto, esta sintaxe por ser mais concisa.
 */
 
-// Versão 1
+// Versão 1 (Arrow Function)
 // function dobra(valor) {
 //     return valor * 2
 // }
 
 // Versão 2 (Arrow Function)
-const dobra = (valor) => {
-    return valor * 2
-};
+// const dobra = (valor) => {
+//     return valor * 2
+// };
+
+// Versão 3 (Arrow Function com retorno implicito)
+const dobra = valor => valor * 2;
+
 
 // Chamada
 console.log(dobra(10));
