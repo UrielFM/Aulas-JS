@@ -91,11 +91,14 @@ No entanto, esta sintaxe por ser mais concisa.
 */
 
 // Versão 1
-function dobra(valor) {
+// function dobra(valor) {
+//     return valor * 2
+// }
+
+// Versão 2 (Arrow Function)
+const dobra = (valor) => {
     return valor * 2
-}
-
-
+};
 
 // Chamada
 console.log(dobra(10));
