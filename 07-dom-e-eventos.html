@@ -17,6 +17,11 @@
             border: solid 1px;
             padding: 2px;
         }
+
+        .modo-noturno {
+    background-color: #222; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+}
     </style>
 </head>
 
@@ -43,12 +48,18 @@
         acontece.</p>
     <hr>
 
+    <!-- Escondendo a imagem com atributo hidden -->
+    <img id="imagem-meme" src="smile-meme.gif" alt="" srcset="" hidden>
+
+    <!-- O elemento audio não apaterece sem o atributo "controls"-->
+    <audio id="reprodutor-audio" src="wow.wav"></audio>
+
     <h3 id="exemplo01">Exemplo 01: detectando eventos</h3>
     <p id="mensagem"></p>
     <hr>
 
     <h3>Exemplo 02: Modo Noturno</h3>
-    <button id="noturno">Ativar</button>
+    <button id="noturno">Ativar Modo Noturno</button>
 
     <hr>
 
@@ -77,7 +88,7 @@
         <li><a href="https://nodejs.org/">Node.js Official Website</a></li>
     </ul>
 
-    <!-- <audio id="meuAudio" src="passion-127011.mp3"></audio> -->
+    
 
 <script src="./js/07-dom-eventos.js"></script>
 

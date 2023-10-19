@@ -56,30 +56,26 @@ for(let link of linksReferencia){
 }
 
 /* Manipulando Eventos */
-
 const pagina = document.querySelector("body");
 const exemplo01 = document.querySelector("#exemplo01");
 const mensagem = document.querySelector("#mensagem");
 
+const reprodutorAudio = document.querySelector("#reprodutor-audio")
+const minhaImagem = document.querySelector("#imagem-meme")
+
 // Ouvinte de evento
 exemplo01.addEventListener("click", function(){
-    pagina.style.fontFamily = "Verdana";
-    mensagem.textContent = "Fonte Alterada!";
-    mensagem.style.backgroundColor = "yellow";
+  pagina.style.fontFamily = "Verdana";
+  mensagem.textContent = "Fonte Alterada!";
+  mensagem.style.backgroundColor = "yellow";
+
+  // Executando o áudio com o play
+  reprodutorAudio.play();
+
+
+  minhaImagem.removeAttribute("hidden");
 });
 
-/* var audio = new Audio('audio.mp3');
-audio.addEventListener('canplaythrough', function() {
-  audio.play();
+document.querySelector('#noturno').addEventListener('click', function() {
+document.body.classList.toggle('modo-noturno');
 });
-
-const music = new Audio('adf.wav');
-music.play();
-music.loop =true;
-music.playbackRate = 2;
-music.pause();qqazszdgfbgtyj; */
-
-
-// var meuAudio = document.getElementById("meuAudio");
-// meuAudio.play();
-// meuAudio.pause();
