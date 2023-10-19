@@ -80,6 +80,6 @@ music.playbackRate = 2;
 music.pause();qqazszdgfbgtyj; */
 
 
-var meuAudio = document.getElementById("meuAudio");
-meuAudio.play();
-meuAudio.pause();
+// var meuAudio = document.getElementById("meuAudio");
+// meuAudio.play();
+// meuAudio.pause();
