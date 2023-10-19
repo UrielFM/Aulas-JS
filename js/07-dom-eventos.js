@@ -76,6 +76,22 @@ exemplo01.addEventListener("click", function(){
   minhaImagem.removeAttribute("hidden");
 });
 
-document.querySelector('#noturno').addEventListener('click', function() {
-document.body.classList.toggle('modo-noturno');
-});
+// Modo Noturono
+// document.querySelector("#noturno").addEventListener("click", 
+// function() {document.body.classList.toggle("modo-noturno");
+// });
+
+const botao = document.querySelector("#noturno");
+botao.addEventListener("click", gerenciarModoNoturno);
+
+function gerenciarModoNoturno() {
+  pagina.classList.toggle("modo-noturno");
+
+
+  if (gerenciarModoNoturno) {
+    botao.innerText = "Desativado";
+  } else {
+    botao.innerText = "Ativado";
+  }
+  gerenciarModoNoturno = !gerenciarModoNoturno;
+}
